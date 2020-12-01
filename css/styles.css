@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(https://scontent.fgdl2-1.fna.fbcdn.net/v/t1.0-9/83008138_10207140335702949_7913730499921575936_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeEJVwjKV3lqmkuCiFxA5TOaDkwBaXCA-j0OTAFpcID6PaQPoowodwD0PlG5mmjb2sA&_nc_ohc=AVS2c2v8kssAX_RuZu5&_nc_oc=AQnxC4m_aeHoVeugG23hXQA_g46emVMTQxscGvRQTSkYPtyFPFqrvkxIVJNWQU9xGcE&_nc_ht=scontent.fgdl2-1.fna&oh=81db27dcf482436d1e3ee32cff73be68&oe=5FE78758);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+/* Helpers */
+.text-primary {
+    color: white;
+}
+.text-primary {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+@media (min-width: 100px) {
+    body {
+        background: grey;
+    }
+}
+
+.hide {
+    display: none;
+}
